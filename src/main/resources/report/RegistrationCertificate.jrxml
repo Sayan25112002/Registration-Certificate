@@ -98,7 +98,7 @@
                         <property name="com.jaspersoft.layout.grid.colspan" value="1"/>
                         <property name="com.jaspersoft.layout.grid.weight.fixed" value="false"/>
                     </reportElement>
-                    <imageExpression><![CDATA["C:/Users/SAYAN MAJUMDAR/OneDrive/Desktop/DESKTOP FOLDERS/IMPORTANT DOCUMENT/SAYAN MAJUMDAR - C.S.E.(A.I.M.L.).jpg"]]></imageExpression>
+                    <imageExpression><![CDATA[$P{data}.get("photo")]]></imageExpression>
                 </image>
                 <image scaleImage="RetainShape" hAlign="Center">
                     <reportElement x="621" y="341" width="140" height="40" uuid="fdaef074-82cf-481d-b356-d1a9c152b883">
@@ -110,9 +110,9 @@
                         <property name="com.jaspersoft.layout.grid.colspan" value="1"/>
                         <property name="com.jaspersoft.layout.grid.weight.fixed" value="false"/>
                     </reportElement>
-                    <imageExpression><![CDATA["C:/Users/SAYAN MAJUMDAR/OneDrive/Documents/Signature.jpg"]]></imageExpression>
+                    <imageExpression><![CDATA[$P{data}.get("signature")]]></imageExpression>
                 </image>
-                <image>
+                <image hAlign="Center">
                     <reportElement x="621" y="461" width="140" height="39" uuid="679cdbae-f8d5-4aa7-a667-fae5426235db">
                         <property name="com.jaspersoft.layout.grid.x" value="1"/>
                         <property name="com.jaspersoft.layout.grid.y" value="8"/>
@@ -122,7 +122,7 @@
                         <property name="com.jaspersoft.layout.grid.colspan" value="1"/>
                         <property name="com.jaspersoft.layout.grid.weight.fixed" value="false"/>
                     </reportElement>
-                    <imageExpression><![CDATA["C:/Users/SAYAN MAJUMDAR/Downloads/controller_2025-semester-1.png"]]></imageExpression>
+                    <imageExpression><![CDATA[$P{data}.get("registrar")]]></imageExpression>
                 </image>
                 <staticText>
                     <reportElement x="621" y="501" width="140" height="20" uuid="6b3b8e84-d181-4519-9e33-b86b9580434b">
