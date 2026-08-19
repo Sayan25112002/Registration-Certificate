@@ -37,14 +37,14 @@
                     <imageExpression><![CDATA["C:/Users/SAYAN MAJUMDAR/Downloads/Kazi-Nazrul-University-Logo.jpg"]]></imageExpression>
                 </image>
                 <staticText>
-                    <reportElement x="312" y="32" width="300" height="38" forecolor="#FF0000" uuid="d3ad1ac1-0a12-4291-9cae-f67aa87c7414"/>
+                    <reportElement x="301" y="32" width="300" height="38" forecolor="#FF0000" uuid="d3ad1ac1-0a12-4291-9cae-f67aa87c7414"/>
                     <textElement textAlignment="Center" verticalAlignment="Middle">
                         <font size="25" isBold="true"/>
                     </textElement>
                     <text><![CDATA[Kazi Nazrul University]]></text>
                 </staticText>
                 <staticText>
-                    <reportElement x="312" y="69" width="300" height="42" forecolor="#FF0000" uuid="c6c2b380-f4de-4988-b09d-3fadcae2d46e">
+                    <reportElement x="301" y="69" width="300" height="42" forecolor="#FF0000" uuid="c6c2b380-f4de-4988-b09d-3fadcae2d46e">
                         <property name="com.jaspersoft.layout.grid.x" value="1"/>
                         <property name="com.jaspersoft.layout.grid.y" value="-1"/>
                         <property name="com.jaspersoft.layout.grid.weight.x" value="1.0"/>
@@ -68,7 +68,7 @@
                         <property name="com.jaspersoft.layout.grid.colspan" value="2"/>
                         <property name="com.jaspersoft.layout.grid.weight.fixed" value="false"/>
                     </reportElement>
-                    <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
                         <font fontName="Times New Roman" size="18" isBold="true"/>
                     </textElement>
                     <text><![CDATA[<ul>REGISTRATION CERTIFICATE</ul>]]></text>
