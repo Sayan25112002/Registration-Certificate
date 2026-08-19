@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.17.0.final using JasperReports Library version 6.17.0-6d93193241dd8cc42629e188b94f9e0bc5722efd  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="RegistrationCertificate" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="53df348b-486b-4e4e-b5b3-4d7138696966">
+    <property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+    <parameter name="data" class="java.util.Map"/>
+    <queryString>
+        <![CDATA[]]>
+    </queryString>
+    <background>
+        <band splitType="Stretch"/>
+    </background>
+    <detail>
+        <band height="555" splitType="Stretch">
+            <property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.FreeLayout"/>
+            <property name="com.jaspersoft.studio.unit.height" value="px"/>
+            <frame>
+                <reportElement x="0" y="0" width="802" height="555" uuid="822f3361-b7df-4ce9-9872-da0b9ede9f8e">
+                    <property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.FreeLayout"/>
+                </reportElement>
+                <box>
+                    <pen lineColor="#FF0000"/>
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#FF0000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#FF0000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#FF0000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#FF0000"/>
+                </box>
+                <image hAlign="Center" vAlign="Middle">
+                    <reportElement x="192" y="33" width="79" height="80" uuid="ef94fed7-65d4-463e-8ebf-79a470999017">
+                        <property name="com.jaspersoft.layout.grid.x" value="-1"/>
+                        <property name="com.jaspersoft.layout.grid.y" value="-1"/>
+                        <property name="com.jaspersoft.layout.grid.weight.x" value="1.0"/>
+                        <property name="com.jaspersoft.layout.grid.weight.y" value="1.0"/>
+                        <property name="com.jaspersoft.layout.grid.rowspan" value="2"/>
+                        <property name="com.jaspersoft.layout.grid.colspan" value="1"/>
+                        <property name="com.jaspersoft.layout.grid.weight.fixed" value="false"/>
+                    </reportElement>
+                    <imageExpression><![CDATA["C:/Users/SAYAN MAJUMDAR/Downloads/Kazi-Nazrul-University-Logo.jpg"]]></imageExpression>
+                </image>
+                <staticText>
+                    <reportElement x="312" y="32" width="300" height="38" forecolor="#FF0000" uuid="d3ad1ac1-0a12-4291-9cae-f67aa87c7414"/>
+                    <textElement textAlignment="Center" verticalAlignment="Middle">
+                        <font size="25" isBold="true"/>
+                    </textElement>
+                    <text><![CDATA[Kazi Nazrul University]]></text>
+                </staticText>
+                <staticText>
+                    <reportElement x="312" y="69" width="300" height="42" forecolor="#FF0000" uuid="c6c2b380-f4de-4988-b09d-3fadcae2d46e">
+                        <property name="com.jaspersoft.layout.grid.x" value="1"/>
+                        <property name="com.jaspersoft.layout.grid.y" value="-1"/>
+                        <property name="com.jaspersoft.layout.grid.weight.x" value="1.0"/>
+                        <property name="com.jaspersoft.layout.grid.weight.y" value="1.0"/>
+                        <property name="com.jaspersoft.layout.grid.rowspan" value="1"/>
+                        <property name="com.jaspersoft.layout.grid.colspan" value="1"/>
+                        <property name="com.jaspersoft.layout.grid.weight.fixed" value="false"/>
+                    </reportElement>
+                    <textElement textAlignment="Center" verticalAlignment="Middle">
+                        <font size="18" isBold="true"/>
+                    </textElement>
+                    <text><![CDATA[Asansol West Bengal - 713340]]></text>
+                </staticText>
+                <staticText>
+                    <reportElement x="0" y="138" width="802" height="42" forecolor="#FF0000" uuid="b3cf7bac-8658-4cf3-832a-9dca714c148d">
+                        <property name="com.jaspersoft.layout.grid.x" value="0"/>
+                        <property name="com.jaspersoft.layout.grid.y" value="-1"/>
+                        <property name="com.jaspersoft.layout.grid.weight.x" value="1.0"/>
+                        <property name="com.jaspersoft.layout.grid.weight.y" value="1.0"/>
+                        <property name="com.jaspersoft.layout.grid.rowspan" value="1"/>
+                        <property name="com.jaspersoft.layout.grid.colspan" value="2"/>
+                        <property name="com.jaspersoft.layout.grid.weight.fixed" value="false"/>
+                    </reportElement>
+                    <textElement textAlignment="Center" verticalAlignment="Middle">
+                        <font fontName="Times New Roman" size="18" isBold="true"/>
+                    </textElement>
+                    <text><![CDATA[<ul>REGISTRATION CERTIFICATE</ul>]]></text>
+                </staticText>
+                <textField>
+                    <reportElement x="80" y="207" width="500" height="174" uuid="b6ad33c6-ae0e-4d8b-82eb-b139b06a3e2a">
+                        <property name="com.jaspersoft.layout.grid.x" value="0"/>
+                        <property name="com.jaspersoft.layout.grid.y" value="-1"/>
+                        <property name="com.jaspersoft.layout.grid.weight.x" value="1.0"/>
+                        <property name="com.jaspersoft.layout.grid.weight.y" value="1.0"/>
+                        <property name="com.jaspersoft.layout.grid.rowspan" value="5"/>
+                        <property name="com.jaspersoft.layout.grid.colspan" value="1"/>
+                        <property name="com.jaspersoft.layout.grid.weight.fixed" value="false"/>
+                    </reportElement>
+                    <textElement markup="html">
+                        <font isItalic="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA["This is to certify that "+$P{data}.get("name")+"<br /><br />Son/Daughter of "+$P{data}.get("parentName")+"<br /><br />of "+$P{data}.get("universityName")+"<br /><br />is registered as a student of this University,<br /><br />His/Her registration number is  "+$P{data}.get("registrationNumber")+" of "+$P{data}.get("year")]]></textFieldExpression>
+                </textField>
+                <image scaleImage="RetainShape" hAlign="Center">
+                    <reportElement x="620" y="207" width="140" height="123" uuid="be1b01cf-c53d-4a27-bb24-9ba7edf4a736">
+                        <property name="com.jaspersoft.layout.grid.x" value="-1"/>
+                        <property name="com.jaspersoft.layout.grid.y" value="3"/>
+                        <property name="com.jaspersoft.layout.grid.weight.x" value="1.0"/>
+                        <property name="com.jaspersoft.layout.grid.weight.y" value="1.0"/>
+                        <property name="com.jaspersoft.layout.grid.rowspan" value="3"/>
+                        <property name="com.jaspersoft.layout.grid.colspan" value="1"/>
+                        <property name="com.jaspersoft.layout.grid.weight.fixed" value="false"/>
+                    </reportElement>
+                    <imageExpression><![CDATA["C:/Users/SAYAN MAJUMDAR/OneDrive/Desktop/DESKTOP FOLDERS/IMPORTANT DOCUMENT/SAYAN MAJUMDAR - C.S.E.(A.I.M.L.).jpg"]]></imageExpression>
+                </image>
+                <image scaleImage="RetainShape" hAlign="Center">
+                    <reportElement x="621" y="341" width="140" height="40" uuid="fdaef074-82cf-481d-b356-d1a9c152b883">
+                        <property name="com.jaspersoft.layout.grid.x" value="-1"/>
+                        <property name="com.jaspersoft.layout.grid.y" value="6"/>
+                        <property name="com.jaspersoft.layout.grid.weight.x" value="1.0"/>
+                        <property name="com.jaspersoft.layout.grid.weight.y" value="1.0"/>
+                        <property name="com.jaspersoft.layout.grid.rowspan" value="2"/>
+                        <property name="com.jaspersoft.layout.grid.colspan" value="1"/>
+                        <property name="com.jaspersoft.layout.grid.weight.fixed" value="false"/>
+                    </reportElement>
+                    <imageExpression><![CDATA["C:/Users/SAYAN MAJUMDAR/OneDrive/Documents/Signature.jpg"]]></imageExpression>
+                </image>
+                <image>
+                    <reportElement x="621" y="461" width="140" height="39" uuid="679cdbae-f8d5-4aa7-a667-fae5426235db">
+                        <property name="com.jaspersoft.layout.grid.x" value="1"/>
+                        <property name="com.jaspersoft.layout.grid.y" value="8"/>
+                        <property name="com.jaspersoft.layout.grid.weight.x" value="1.0"/>
+                        <property name="com.jaspersoft.layout.grid.weight.y" value="1.0"/>
+                        <property name="com.jaspersoft.layout.grid.rowspan" value="1"/>
+                        <property name="com.jaspersoft.layout.grid.colspan" value="1"/>
+                        <property name="com.jaspersoft.layout.grid.weight.fixed" value="false"/>
+                    </reportElement>
+                    <imageExpression><![CDATA["C:/Users/SAYAN MAJUMDAR/Downloads/controller_2025-semester-1.png"]]></imageExpression>
+                </image>
+                <staticText>
+                    <reportElement x="621" y="501" width="140" height="20" uuid="6b3b8e84-d181-4519-9e33-b86b9580434b">
+                        <property name="com.jaspersoft.layout.grid.x" value="1"/>
+                        <property name="com.jaspersoft.layout.grid.y" value="-1"/>
+                        <property name="com.jaspersoft.layout.grid.weight.x" value="1.0"/>
+                        <property name="com.jaspersoft.layout.grid.weight.y" value="1.0"/>
+                        <property name="com.jaspersoft.layout.grid.rowspan" value="1"/>
+                        <property name="com.jaspersoft.layout.grid.colspan" value="1"/>
+                        <property name="com.jaspersoft.layout.grid.weight.fixed" value="false"/>
+                    </reportElement>
+                    <textElement textAlignment="Center" verticalAlignment="Middle"/>
+                    <text><![CDATA[Registrar]]></text>
+                </staticText>
+            </frame>
+        </band>
+    </detail>
+</jasperReport>
