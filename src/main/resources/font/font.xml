@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <fontFamilies>
     <fontFamily name="Times New Roman">
-        <normal>times.ttf</normal>
+        <normal>font/times.ttf</normal>
+        <bold>font/timesbd.ttf</bold>
+        <italic>font/timesi.ttf</italic>
+        <boldItalic>font/timesbi.ttf</boldItalic>
         <pdfEncoding>Identity-H</pdfEncoding>
         <pdfEmbedded>true</pdfEmbedded>
     </fontFamily>
