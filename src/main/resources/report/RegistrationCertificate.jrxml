@@ -7,15 +7,31 @@
         <![CDATA[]]>
     </queryString>
     <background>
-        <band splitType="Stretch"/>
+        <band height="555" splitType="Stretch">
+            <property name="com.jaspersoft.studio.unit.height" value="px"/>
+            <property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.FreeLayout"/>
+            <image scaleImage="FillFrame">
+                <reportElement x="-20" y="0" width="842" height="554" uuid="16949d0a-3112-4bc3-926a-33c20ab7d4ec"/>
+                <box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
+                    <pen lineColor="#FFFFFF"/>
+                    <topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <graphicElement fill="Solid"/>
+                <imageExpression><![CDATA["C:/Users/SAYAN MAJUMDAR/Downloads/image (2).png"]]></imageExpression>
+            </image>
+        </band>
     </background>
     <detail>
         <band height="555" splitType="Stretch">
             <property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.FreeLayout"/>
             <property name="com.jaspersoft.studio.unit.height" value="px"/>
             <frame>
-                <reportElement x="0" y="0" width="802" height="555" uuid="822f3361-b7df-4ce9-9872-da0b9ede9f8e">
+                <reportElement x="2" y="7" width="799" height="540" uuid="822f3361-b7df-4ce9-9872-da0b9ede9f8e">
                     <property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.FreeLayout"/>
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
                 </reportElement>
                 <box>
                     <pen lineColor="#FF0000"/>
@@ -25,7 +41,7 @@
                     <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#FF0000"/>
                 </box>
                 <image hAlign="Center" vAlign="Middle">
-                    <reportElement x="192" y="33" width="79" height="80" uuid="ef94fed7-65d4-463e-8ebf-79a470999017">
+                    <reportElement x="181" y="13" width="68" height="79" uuid="ef94fed7-65d4-463e-8ebf-79a470999017">
                         <property name="com.jaspersoft.layout.grid.x" value="-1"/>
                         <property name="com.jaspersoft.layout.grid.y" value="-1"/>
                         <property name="com.jaspersoft.layout.grid.weight.x" value="1.0"/>
@@ -34,17 +50,18 @@
                         <property name="com.jaspersoft.layout.grid.colspan" value="1"/>
                         <property name="com.jaspersoft.layout.grid.weight.fixed" value="false"/>
                     </reportElement>
-                    <imageExpression><![CDATA["C:/Users/SAYAN MAJUMDAR/Downloads/Kazi-Nazrul-University-Logo.jpg"]]></imageExpression>
+                    <imageExpression><![CDATA["C:/Users/SAYAN MAJUMDAR/Downloads/Kazi-Nazrul-University-Logo.png"]]></imageExpression>
                 </image>
                 <staticText>
-                    <reportElement x="301" y="32" width="300" height="38" forecolor="#FF0000" uuid="d3ad1ac1-0a12-4291-9cae-f67aa87c7414"/>
+                    <reportElement x="249" y="12" width="331" height="38" forecolor="#FF0000" uuid="d3ad1ac1-0a12-4291-9cae-f67aa87c7414"/>
+                    <box topPadding="3"/>
                     <textElement textAlignment="Center" verticalAlignment="Middle">
-                        <font size="25" isBold="true"/>
+                        <font size="26" isBold="true"/>
                     </textElement>
                     <text><![CDATA[Kazi Nazrul University]]></text>
                 </staticText>
                 <staticText>
-                    <reportElement x="301" y="69" width="300" height="42" forecolor="#FF0000" uuid="c6c2b380-f4de-4988-b09d-3fadcae2d46e">
+                    <reportElement x="249" y="49" width="331" height="42" forecolor="#FF0000" uuid="c6c2b380-f4de-4988-b09d-3fadcae2d46e">
                         <property name="com.jaspersoft.layout.grid.x" value="1"/>
                         <property name="com.jaspersoft.layout.grid.y" value="-1"/>
                         <property name="com.jaspersoft.layout.grid.weight.x" value="1.0"/>
@@ -53,13 +70,14 @@
                         <property name="com.jaspersoft.layout.grid.colspan" value="1"/>
                         <property name="com.jaspersoft.layout.grid.weight.fixed" value="false"/>
                     </reportElement>
+                    <box bottomPadding="10"/>
                     <textElement textAlignment="Center" verticalAlignment="Middle">
                         <font size="18" isBold="true"/>
                     </textElement>
                     <text><![CDATA[Asansol West Bengal - 713340]]></text>
                 </staticText>
                 <staticText>
-                    <reportElement x="0" y="138" width="802" height="42" forecolor="#FF0000" uuid="b3cf7bac-8658-4cf3-832a-9dca714c148d">
+                    <reportElement x="0" y="124" width="798" height="25" forecolor="#FF0000" uuid="b3cf7bac-8658-4cf3-832a-9dca714c148d">
                         <property name="com.jaspersoft.layout.grid.x" value="0"/>
                         <property name="com.jaspersoft.layout.grid.y" value="-1"/>
                         <property name="com.jaspersoft.layout.grid.weight.x" value="1.0"/>
@@ -68,13 +86,13 @@
                         <property name="com.jaspersoft.layout.grid.colspan" value="2"/>
                         <property name="com.jaspersoft.layout.grid.weight.fixed" value="false"/>
                     </reportElement>
-                    <textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+                    <textElement textAlignment="Center" verticalAlignment="Top" markup="html">
                         <font fontName="Times New Roman" size="18" isBold="true"/>
                     </textElement>
-                    <text><![CDATA[<ul>REGISTRATION CERTIFICATE</ul>]]></text>
+                    <text><![CDATA[<u>REGISTRATION CERTIFICATE</u>]]></text>
                 </staticText>
                 <textField>
-                    <reportElement x="80" y="207" width="500" height="174" uuid="b6ad33c6-ae0e-4d8b-82eb-b139b06a3e2a">
+                    <reportElement x="81" y="208" width="500" height="174" uuid="b6ad33c6-ae0e-4d8b-82eb-b139b06a3e2a">
                         <property name="com.jaspersoft.layout.grid.x" value="0"/>
                         <property name="com.jaspersoft.layout.grid.y" value="-1"/>
                         <property name="com.jaspersoft.layout.grid.weight.x" value="1.0"/>
@@ -84,12 +102,12 @@
                         <property name="com.jaspersoft.layout.grid.weight.fixed" value="false"/>
                     </reportElement>
                     <textElement markup="html">
-                        <font isItalic="true"/>
+                        <font fontName="Times New Roman" isItalic="false"/>
                     </textElement>
-                    <textFieldExpression><![CDATA["This is to certify that "+$P{data}.get("name")+"<br /><br />Son/Daughter of "+$P{data}.get("parentName")+"<br /><br />of "+$P{data}.get("universityName")+"<br /><br />is registered as a student of this University,<br /><br />His/Her registration number is  "+$P{data}.get("registrationNumber")+" of "+$P{data}.get("year")]]></textFieldExpression>
+                    <textFieldExpression><![CDATA["<i>This is to certify that </i><font face='SansSeriff'>"+$P{data}.get("name")+"</font><br /><br /><i>Son/Daughter of </i><font face='SansSeriff'>   "+$P{data}.get("parentName")+"</font><br /><br /><i>of </i><font face='SansSeriff'>"+$P{data}.get("universityName")+"</font><br /><br /><i>is registered as a student of this University,</i><br /><br /><i>His/Her registration number is </i><font face='SansSeriff'>"+$P{data}.get("registrationNumber")+"</font><i> of </i><font face='SansSeriff'>"+$P{data}.get("year")+"</font>"]]></textFieldExpression>
                 </textField>
                 <image scaleImage="RetainShape" hAlign="Center">
-                    <reportElement x="620" y="207" width="140" height="123" uuid="be1b01cf-c53d-4a27-bb24-9ba7edf4a736">
+                    <reportElement x="621" y="207" width="140" height="123" uuid="be1b01cf-c53d-4a27-bb24-9ba7edf4a736">
                         <property name="com.jaspersoft.layout.grid.x" value="-1"/>
                         <property name="com.jaspersoft.layout.grid.y" value="3"/>
                         <property name="com.jaspersoft.layout.grid.weight.x" value="1.0"/>
@@ -101,7 +119,7 @@
                     <imageExpression><![CDATA[$P{data}.get("photo")]]></imageExpression>
                 </image>
                 <image scaleImage="RetainShape" hAlign="Center">
-                    <reportElement x="621" y="341" width="140" height="40" uuid="fdaef074-82cf-481d-b356-d1a9c152b883">
+                    <reportElement x="622" y="341" width="140" height="40" uuid="fdaef074-82cf-481d-b356-d1a9c152b883">
                         <property name="com.jaspersoft.layout.grid.x" value="-1"/>
                         <property name="com.jaspersoft.layout.grid.y" value="6"/>
                         <property name="com.jaspersoft.layout.grid.weight.x" value="1.0"/>
@@ -113,7 +131,7 @@
                     <imageExpression><![CDATA[$P{data}.get("signature")]]></imageExpression>
                 </image>
                 <image hAlign="Center">
-                    <reportElement x="621" y="461" width="140" height="39" uuid="679cdbae-f8d5-4aa7-a667-fae5426235db">
+                    <reportElement x="622" y="448" width="140" height="39" uuid="679cdbae-f8d5-4aa7-a667-fae5426235db">
                         <property name="com.jaspersoft.layout.grid.x" value="1"/>
                         <property name="com.jaspersoft.layout.grid.y" value="8"/>
                         <property name="com.jaspersoft.layout.grid.weight.x" value="1.0"/>
@@ -125,7 +143,7 @@
                     <imageExpression><![CDATA[$P{data}.get("registrar")]]></imageExpression>
                 </image>
                 <staticText>
-                    <reportElement x="621" y="501" width="140" height="20" uuid="6b3b8e84-d181-4519-9e33-b86b9580434b">
+                    <reportElement x="622" y="488" width="140" height="20" uuid="6b3b8e84-d181-4519-9e33-b86b9580434b">
                         <property name="com.jaspersoft.layout.grid.x" value="1"/>
                         <property name="com.jaspersoft.layout.grid.y" value="-1"/>
                         <property name="com.jaspersoft.layout.grid.weight.x" value="1.0"/>
@@ -134,7 +152,9 @@
                         <property name="com.jaspersoft.layout.grid.colspan" value="1"/>
                         <property name="com.jaspersoft.layout.grid.weight.fixed" value="false"/>
                     </reportElement>
-                    <textElement textAlignment="Center" verticalAlignment="Middle"/>
+                    <textElement textAlignment="Center" verticalAlignment="Middle">
+                        <font fontName="Calibri" size="12"/>
+                    </textElement>
                     <text><![CDATA[Registrar]]></text>
                 </staticText>
             </frame>
