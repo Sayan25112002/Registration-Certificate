@@ -22,15 +22,9 @@ public class StudentRequestDto {
 
     private String year;
 
-    private String photo;
-
     private MultipartFile photoFile;
 
-    private String signature;
-
     private MultipartFile signatureFile;
-
-    private String registrar;
 
     private MultipartFile registrarFile;
 
